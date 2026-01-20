@@ -1,5 +1,5 @@
 # Multi-Layer_Heterogeneous_Network_Data
-This repository provides **multi-layer heterogeneous network data sets** and example code for reproducible experiments on **key node identification** and other multi-layer network analytics.
+This repository provides **multi-layer heterogeneous network data sets** and example code for reproducible experiments on **key node identification** and other multi-layer network analytics. Please note that the DBLP_2006_2008 dataset needs to be decompressed before use due to its large original file size.
 
 Each data set is stored in a **two-file format** for long-term reproducibility:
 
@@ -10,8 +10,6 @@ This design ensures:
 - deterministic, stable node ordering across experiments,
 - matrix-friendly computation (NumPy/PyTorch),
 - independence from NetworkX version changes.
-
-Please note that the DBLP_2006_2008 dataset needs to be decompressed before use due to its large original file size.
 ---
 #### loading code:
 ```python
