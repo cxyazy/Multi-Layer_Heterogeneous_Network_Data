@@ -10,7 +10,7 @@ This design ensures:
 - deterministic, stable node ordering across experiments,
 - matrix-friendly computation (NumPy/PyTorch),
 - independence from NetworkX version changes.
-
+Please note that the DBLP_2006_2008 dataset needs to be decompressed before use due to its large original file size.
 ---
 #### loading code:
 ```python
