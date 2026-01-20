@@ -12,3 +12,17 @@ This design ensures:
 - independence from NetworkX version changes.
 
 ---
+#### loading code:
+```python
+import numpy as np
+
+# data = np.load("XXXXX.npz", allow_pickle=True)
+# node_list = data["node_list"].tolist()
+# layers = data["layers"].tolist()
+# adj_matrices = data["adj_matrices"]
+# inter_layers = data["inter_layers"].tolist()
+# inter_adj_matrices = data["inter_adj_matrices"]
+#
+# with open("XXXXX_node2idx.pkl", "rb") as f:
+#     node2idx = pickle.load(f)
+```
