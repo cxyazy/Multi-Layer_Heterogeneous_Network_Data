@@ -26,3 +26,10 @@ import numpy as np
 # with open("XXXXX_node2idx.pkl", "rb") as f:
 #     node2idx = pickle.load(f)
 ```
+## 📬 Contact & Citation
+
+If you have any questions regarding the data set or encounter any issues using it, feel free to contact us:
+
+- 📫 **Contact**: 230239729@seu.edu.cn
+
+
