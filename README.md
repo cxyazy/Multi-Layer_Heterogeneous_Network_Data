@@ -1,5 +1,5 @@
 # Multi-Layer_Heterogeneous_Network_Data
-This repository provides **multi-layer heterogeneous network data sets** and example code for reproducible experiments on **key node identification** and other multi-layer network analytics. Please note that the DBLP_2006_2008 dataset needs to be decompressed before use due to its large original file size.
+This repository provides **multi-layer heterogeneous network data sets** and example code for reproducible experiments on **key node identification** and other multi-layer network analytics. Please note that the DBLP_2006_2008 data set needs to be decompressed before use due to its large original file size.
 
 Each data set is stored in a **two-file format** for long-term reproducibility:
 
@@ -25,7 +25,7 @@ inter_adj_matrices = data["inter_adj_matrices"]
 with open("XXXXX_node2idx.pkl", "rb") as f:
     node2idx = pickle.load(f)
 ```
-## 📬 Contact & Citation
+## 📬 Contact
 
 If you have any questions regarding the data set or encounter any issues using it, feel free to contact us:
 
